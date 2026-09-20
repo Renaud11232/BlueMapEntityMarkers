@@ -25,6 +25,8 @@ public class VehicleIcon {
     public static final Icon SPRUCE_CHEST_BOAT = new SimpleIcon("assets/bluemap-vehicle-markers/img/spruce_chest_boat.png", new Vector2i(12, 12));
     public static final Icon PALE_OAK_BOAT = new SimpleIcon("assets/bluemap-vehicle-markers/img/pale_oak_boat.png", new Vector2i(12, 12));
     public static final Icon PALE_OAK_CHEST_BOAT = new SimpleIcon("assets/bluemap-vehicle-markers/img/pale_oak_chest_boat.png", new Vector2i(12, 12));
+    public static final Icon POPLAR_BOAT = new SimpleIcon("assets/bluemap-vehicle-markers/img/poplar_boat.png", new Vector2i(12, 12));
+    public static final Icon POPLAR_CHEST_BOAT = new SimpleIcon("assets/bluemap-vehicle-markers/img/poplar_chest_boat.png", new Vector2i(12, 12));
 
     public static final Icon CHEST_MINECART = new SimpleIcon("assets/bluemap-vehicle-markers/img/chest_minecart.png", new Vector2i(12, 12));
     public static final Icon COMMAND_BLOCK_MINECART = new SimpleIcon("assets/bluemap-vehicle-markers/img/command_block_minecart.png", new Vector2i(12, 12));

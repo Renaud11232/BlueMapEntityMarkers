@@ -21,6 +21,7 @@ public interface RideableBoat extends Boat {
         MANGROVE,
         OAK,
         PALE_OAK,
+        POPLAR,
         SPRUCE
     }
 }

@@ -17,6 +17,7 @@ public class RideableBoatMarkerBuilder extends SimpleSingleVariantMarkerBuilder<
         registerVariantIcon(RideableBoat.Type.MANGROVE, VehicleIcon.MANGROVE_BOAT);
         registerVariantIcon(RideableBoat.Type.OAK, VehicleIcon.OAK_BOAT);
         registerVariantIcon(RideableBoat.Type.PALE_OAK, VehicleIcon.PALE_OAK_BOAT);
+        registerVariantIcon(RideableBoat.Type.POPLAR, VehicleIcon.POPLAR_BOAT);
         registerVariantIcon(RideableBoat.Type.SPRUCE, VehicleIcon.SPRUCE_BOAT);
     }
 

@@ -24,6 +24,7 @@ public class BukkitVehicleConverter implements EntityConverter<Vehicle, be.renau
             case MangroveChestBoat mangroveChestBoat -> new BukkitRideableChestBoat(mangroveChestBoat);
             case OakChestBoat oakChestBoat -> new BukkitRideableChestBoat(oakChestBoat);
             case PaleOakChestBoat paleOakChestBoat -> new BukkitRideableChestBoat(paleOakChestBoat);
+            case PoplarChestBoat poplarChestBoat -> new BukkitRideableChestBoat(poplarChestBoat);
             case SpruceChestBoat spruceChestBoat -> new BukkitRideableChestBoat(spruceChestBoat);
             case BambooRaft bambooRaft -> new BukkitRaft(bambooRaft);
             case AcaciaBoat acaciaBoat -> new BukkitRideableBoat(acaciaBoat);
@@ -34,6 +35,7 @@ public class BukkitVehicleConverter implements EntityConverter<Vehicle, be.renau
             case MangroveBoat mangroveBoat -> new BukkitRideableBoat(mangroveBoat);
             case OakBoat oakBoat -> new BukkitRideableBoat(oakBoat);
             case PaleOakBoat paleOakBoat -> new BukkitRideableBoat(paleOakBoat);
+            case PoplarBoat poplarBoat -> new BukkitRideableBoat(poplarBoat);
             case SpruceBoat spruceBoat -> new BukkitRideableBoat(spruceBoat);
 
             case CommandMinecart commandMinecart -> new BukkitCommandMinecart(commandMinecart);

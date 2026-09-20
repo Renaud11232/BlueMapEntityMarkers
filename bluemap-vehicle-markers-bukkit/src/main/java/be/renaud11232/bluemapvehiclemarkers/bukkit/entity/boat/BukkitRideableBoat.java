@@ -48,6 +48,11 @@ public class BukkitRideableBoat extends BukkitVehicle<Boat> implements RideableB
         type = Type.PALE_OAK;
     }
 
+    public BukkitRideableBoat(PoplarBoat wrapped) {
+        super(wrapped);
+        type = Type.POPLAR;
+    }
+
     public BukkitRideableBoat(SpruceBoat wrapped) {
         super(wrapped);
         type = Type.SPRUCE;

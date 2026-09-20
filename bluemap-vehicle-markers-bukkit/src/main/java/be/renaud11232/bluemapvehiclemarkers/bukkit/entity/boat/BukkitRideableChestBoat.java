@@ -49,6 +49,11 @@ public class BukkitRideableChestBoat extends BukkitVehicle<ChestBoat> implements
         type = RideableBoat.Type.PALE_OAK;
     }
 
+    public BukkitRideableChestBoat(PoplarChestBoat wrapped) {
+        super(wrapped);
+        type = RideableBoat.Type.POPLAR;
+    }
+
     public BukkitRideableChestBoat(SpruceChestBoat wrapped) {
         super(wrapped);
         type = RideableBoat.Type.SPRUCE;

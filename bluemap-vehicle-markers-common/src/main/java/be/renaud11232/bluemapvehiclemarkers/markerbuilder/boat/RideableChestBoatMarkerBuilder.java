@@ -18,6 +18,7 @@ public class RideableChestBoatMarkerBuilder extends SimpleSingleVariantMarkerBui
         registerVariantIcon(RideableBoat.Type.MANGROVE, VehicleIcon.MANGROVE_CHEST_BOAT);
         registerVariantIcon(RideableBoat.Type.OAK, VehicleIcon.OAK_CHEST_BOAT);
         registerVariantIcon(RideableBoat.Type.PALE_OAK, VehicleIcon.PALE_OAK_CHEST_BOAT);
+        registerVariantIcon(RideableBoat.Type.POPLAR, VehicleIcon.POPLAR_CHEST_BOAT);
         registerVariantIcon(RideableBoat.Type.SPRUCE, VehicleIcon.SPRUCE_CHEST_BOAT);
     }
 

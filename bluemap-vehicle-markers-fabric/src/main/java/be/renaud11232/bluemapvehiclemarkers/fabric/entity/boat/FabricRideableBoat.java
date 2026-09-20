@@ -21,6 +21,7 @@ public class FabricRideableBoat extends FabricVehicle<Boat> implements RideableB
         TYPE_MAP.put(EntityTypes.MANGROVE_BOAT, Type.MANGROVE);
         TYPE_MAP.put(EntityTypes.OAK_BOAT, Type.OAK);
         TYPE_MAP.put(EntityTypes.PALE_OAK_BOAT, Type.PALE_OAK);
+        TYPE_MAP.put(EntityTypes.POPLAR_BOAT, Type.POPLAR);
         TYPE_MAP.put(EntityTypes.SPRUCE_BOAT, Type.SPRUCE);
     }
 

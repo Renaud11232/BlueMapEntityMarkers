@@ -22,6 +22,7 @@ public class FabricRideableChestBoat extends FabricVehicle<ChestBoat> implements
         TYPE_MAP.put(EntityTypes.MANGROVE_CHEST_BOAT, RideableBoat.Type.MANGROVE);
         TYPE_MAP.put(EntityTypes.OAK_CHEST_BOAT, RideableBoat.Type.OAK);
         TYPE_MAP.put(EntityTypes.PALE_OAK_CHEST_BOAT, RideableBoat.Type.PALE_OAK);
+        TYPE_MAP.put(EntityTypes.POPLAR_CHEST_BOAT, RideableBoat.Type.POPLAR);
         TYPE_MAP.put(EntityTypes.SPRUCE_CHEST_BOAT, RideableBoat.Type.SPRUCE);
     }
 
