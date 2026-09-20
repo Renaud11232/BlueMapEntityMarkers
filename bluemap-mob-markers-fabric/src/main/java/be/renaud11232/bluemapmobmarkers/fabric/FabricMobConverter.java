@@ -91,7 +91,7 @@ public class FabricMobConverter implements EntityConverter<Mob, be.renaud11232.b
             case Donkey donkey -> new FabricDonkey(donkey);
             case Drowned drowned -> new FabricDrowned(drowned);
             case ElderGuardian elderGuardian -> new FabricElderGuardian(elderGuardian);
-            case EnderMan enderman -> new FabricEnderman(enderman);
+            case Enderman enderman -> new FabricEnderman(enderman);
             case Endermite endermite -> new FabricEndermite(endermite);
             case EnderDragon enderDragon -> new FabricEnderDragon(enderDragon);
             case Evoker evoker -> new FabricEvoker(evoker);
